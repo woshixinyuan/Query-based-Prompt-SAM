@@ -1,0 +1,1 @@
+Each dataset folder contains `images/`, `masks/`, and split files (`train.txt`, `val.txt`, `test.txt`) listing image names relative to `images/`.

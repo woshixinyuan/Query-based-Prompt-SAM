@@ -233,7 +233,7 @@ def main():
             train_loader,
             desc=f"Epoch {epoch+1}/{num_epochs} [Train]",
             dynamic_ncols=True,
-            leave=False                     
+            leave=True                     
         ):
             images = images.to(CONFIG['device'], non_blocking=True)
             masks  = masks.to(CONFIG['device'],  non_blocking=True).float()
