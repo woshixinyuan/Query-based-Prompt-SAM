@@ -1,6 +1,8 @@
-﻿numpy
-torch
-tqdm
-opencv-python
-safetensors
-
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+opencv-python>=4.8
+tqdm>=4.65
+safetensors>=0.4
+pyyaml>=6.0
+matplotlib>=3.7
