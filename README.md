@@ -164,7 +164,6 @@ The model learns **a small set of box prompts** from SAM’s frozen image featur
 **Overall performance** on Beijing / Xi’an (IoU / F1):
 
 * **QP-SAM (ours):** **75.1 / 81.4 IoU**, **85.8 / 89.7 F1**
-* Stronger than cascaded or reconstruction-based SAM variants; competitive or better than recent segmentation baselines.&#x20;
 
 **Ablations** (Beijing / Xi’an):
 
