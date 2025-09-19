@@ -1,6 +1,6 @@
 # QP-SAM: Query-based Prompt Generation for Segment Anything in Urban-Village Identification
 
-> Parameter-efficient domain adaptation of SAM by **learning prompts** (not masks), with frozen SAM weights and lightweight LoRA adapters.
+> Parameter-efficient domain adaptation of SAM by **learning prompts**, with frozen SAM weights and lightweight LoRA adapters.
 
 ---
 
