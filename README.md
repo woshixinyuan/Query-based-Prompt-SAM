@@ -164,14 +164,6 @@ The model learns **a small set of box prompts** from SAM’s frozen image featur
 **Overall performance** on Beijing / Xi’an (IoU / F1):
 
 * **QP-SAM (ours):** **75.1 / 81.4 IoU**, **85.8 / 89.7 F1**
-
-**Ablations** (Beijing / Xi’an):
-
-* Removing global supervision hurts the most (71.5 / 80.9 IoU).
-* Minimal-parameter setting (**Rank=1, Layer=1**) remains competitive (72.1 / 80.7 IoU).&#x20;
-
-> Numbers above are quoted from the paper; minor deviations may occur due to environment or randomness.&#x20;
-
 ---
 
 ## 🧪 Reproduce
