@@ -153,13 +153,13 @@ CONFIG = {
 
 ---
 
-## 🧠 Method (one paragraph)
+## 🧠 Method
 
 The model learns **a small set of box prompts** from SAM’s frozen image features. A transformer decoder with **learnable queries** interacts with positional-encoded features to produce class logits (foreground/background) and normalized boxes. During training, **Hungarian matching** assigns predictions to ground-truth instances using a composite cost (classification, L1, GIoU, mask consistency). To avoid fragmented outputs, we also supervise a **global full-image mask** obtained by decoding the selected prompts with SAM and fusing them via pixel-wise max. At inference, we select prompts by score thresholding + **NMS**, decode with SAM, and fuse the masks.&#x20;
 
 ---
 
-## 📊 Results (paper numbers)
+## 📊 Results
 
 **Overall performance** on Beijing / Xi’an (IoU / F1):
 
